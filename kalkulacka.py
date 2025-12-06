@@ -32,17 +32,14 @@ def subtract(a, b):
 def multiply(a, b):
     return a * b
 
-# TODO: Implementujte funkci dělení
 def divide(a, b):
-    # if b == 0:
-    #     return "Nelze dělit nulou!"
-    # return a / b
-    pass
-
+    if b == 0:
+        return "Nelze dělit nulou!"
+    return a / b
 
 if __name__ == "__main__":
     a, b = get_values()
     print("Součet:", add(a, b))
     print("Rozdíl:", subtract(a, b))
     print("Součin:", multiply(a, b))
-    # print("Podíl:", divide(a, b))
+    print("Podíl:", divide(a, b))
