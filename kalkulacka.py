@@ -43,4 +43,5 @@ if __name__ == "__main__":
     print("Rozdíl:", subtract(a, b))
     print("Součin:", multiply(a, b))
     print("Podíl:", divide(a, b))
+# conflict 2
 # conflict 1
