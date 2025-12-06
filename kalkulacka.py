@@ -29,11 +29,8 @@ def add(a, b):
 def subtract(a, b):
     return a - b
 
-
-# TODO: Implementujte funkci násobení
 def multiply(a, b):
-    # return a * b
-    pass
+    return a * b
 
 # TODO: Implementujte funkci dělení
 def divide(a, b):
@@ -47,5 +44,5 @@ if __name__ == "__main__":
     a, b = get_values()
     print("Součet:", add(a, b))
     print("Rozdíl:", subtract(a, b))
-    # print("Součin:", multiply(a, b))
+    print("Součin:", multiply(a, b))
     # print("Podíl:", divide(a, b))
